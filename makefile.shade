@@ -25,6 +25,7 @@ functions
             "Options",
             "Logging",
             "Testing",
+            "aspnet.xunit",
             "Diagnostics",
             "EntityFramework",
             "FileSystem",
@@ -374,7 +375,6 @@ functions
             var nonDefaultRepos = new[]
             {
               "KRuntime",
-              "Claims",
               "SqlClient",
               "MusicStore"
             };
