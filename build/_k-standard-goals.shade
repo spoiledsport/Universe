@@ -111,6 +111,9 @@ default Configuration='${E("Configuration")}'
   stylecop-setup
   stylecop-run each='var projectFile in Files.Include("src/**/project.json")'
 
+#fxcop target="test"
+  fxcop
+
 functions @{
     string E(string key) { return Environment.GetEnvironmentVariable(key); }
     void E(string key, string value) { Environment.SetEnvironmentVariable(key, value); }
